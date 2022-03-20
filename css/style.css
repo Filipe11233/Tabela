@@ -1,0 +1,34 @@
+<head>
+   <meta charset="UFT-8">
+   <meta name="viewport" content="width=devide=width, initial-scale=1.0">
+   <style>
+      table, th, td {
+      border-collapse: collapse;
+      }
+      th, td {
+      padding: 15px 50px; <!--Aumento do tamanho do 'espaço' do titulo-->
+      }
+      *{	font-family: sans-serif; <!--Mudança da letra do documento inteiro-->
+      }
+   </style>
+</head>
+th, td {
+border-color: #800000; <!-- Mudar cor do fundo para bege -->
+}
+tr:nth-child(even) {  
+background-color: #fafad2; <!-- Mudar cor do fundo para bege -->
+}
+table, tr, th, td {
+border: solid 4px #696969; <!-- Mudar o estilo e o tamanh da borda (ao meu gosto) -->
+text-align: center;
+}
+th {
+background-color: #CD853F; <!-- adicionar um fundo castanho à zona da tabela onde se encontra o titulo-->
+}
+img {   
+border: solid 4px #CD853F; <!-- adiconar uma borda castanha nas caricaturas-->
+}
+p {
+font-size: 18px;
+margin: 5px 10px 10px 10px;
+}
